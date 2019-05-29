@@ -1,0 +1,30 @@
+@string{heering-jan      = {Heering, Jan}}
+@string{mernik-marjan    = {Mernik, Marjan}}
+@string{sahni-sartaj     = {Sahni, Sartaj}}
+@string{sloane-anthony-m = {Sloane, Anthony M.}}
+
+@xdata{acm,
+  publisher = {Association for Computing Machinery},
+  address   = {New York}
+}
+
+@xdata{acm-computing-surveys,
+  title = {ACM Computing Surveys},
+  issn  = {0360-0300}
+}
+
+@periodical{acm-computing-surveys:37-4,
+  editor = sahni-sartaj,
+  volume = {37},
+  number = {4},
+  date   = {2005-12},
+  xdata  = {acm-computing-surveys}
+}
+
+@article{mernik2005:domain,
+  author = mernik-marjan # { and } # heering-jan # { and } # sloane-anthony-m,
+  title  = {When and how to develop domain-specific languages},
+  pages  = {316--344},
+  doi    = {10.1145/1118890.1118892},
+  xdata  = {acm-computing-surveys:37-4}
+}
