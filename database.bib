@@ -1,11 +1,24 @@
-@string{heering-jan      = {Heering, Jan}}
-@string{mernik-marjan    = {Mernik, Marjan}}
-@string{sahni-sartaj     = {Sahni, Sartaj}}
-@string{sloane-anthony-m = {Sloane, Anthony M.}}
+@string{heering-jan       = {Heering, Jan}}
+@string{mernik-marjan     = {Mernik, Marjan}}
+@string{sahni-sartaj      = {Sahni, Sartaj}}
+@string{sloane-anthony-m  = {Sloane, Anthony M.}}
+@string{wirth-niklaus     = {Wirth, Niklaus}}
+@string{grune-dick        = {Grune, Dick}}
+@string{jacobs-h-ceriel-j = {Jacobs J., Ceriel H.}}
 
 @xdata{acm,
   publisher = {Association for Computing Machinery},
-  address   = {New York}
+  address   = {New York, United States}
+}
+
+@xdata{addison-wesley,
+  publisher = {Addison-Wesley},
+  address   = {Boston, United States}
+}
+
+@xdata{springer,
+  publisher = {Springer-Verlag},
+  address   = {New York, United States}
 }
 
 @xdata{acm-computing-surveys,
@@ -29,4 +42,22 @@
   doi      = {10.1145/1118890.1118892},
   keywords = {Domain-specific language, application language, domain analysis, language development system},
   xdata    = {acm-computing-surveys:37-4}
+}
+
+@book{wirth1996:compiler,
+  author = wirth-niklaus,
+  title  = {Compiler Construction},
+  year   = {1996},
+  isbn   = {0-201-40353-6},
+  xdata  = {addison-wesley}
+} 
+
+
+@book{grune2008:parsing,
+  author = grune-dick # { and } # jacobs-h-ceriel-j 
+  title     = {Parsing techniques},
+  subtitle  = {A practical guide},
+  year      = {2008},
+  isbn      = {978-0-387-20248-8},
+  xdata     = {springer}
 }
